@@ -12,6 +12,9 @@
 		EA3BB5AA1D7E047700946D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3BB5A81D7E047700946D7B /* Main.storyboard */; };
 		EA3BB5AC1D7E047800946D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3BB5AB1D7E047800946D7B /* Assets.xcassets */; };
 		EA3BB5AF1D7E047800946D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3BB5AD1D7E047800946D7B /* LaunchScreen.storyboard */; };
+		EA3BB5B91D7E04EF00946D7B /* Push-ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3BB5B81D7E04EF00946D7B /* Push-ButtonView.swift */; };
+		EA3BB5BB1D7E0E5F00946D7B /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3BB5BA1D7E0E5F00946D7B /* CounterView.swift */; };
+		EAA2D9AA1D7EECB600A3919C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2D9A91D7EECB600A3919C /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EA3BB5AB1D7E047800946D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA3BB5AE1D7E047800946D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA3BB5B01D7E047800946D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3BB5B81D7E04EF00946D7B /* Push-ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Push-ButtonView.swift"; sourceTree = "<group>"; };
+		EA3BB5BA1D7E0E5F00946D7B /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		EAA2D9A91D7EECB600A3919C /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				EA3BB5AB1D7E047800946D7B /* Assets.xcassets */,
 				EA3BB5AD1D7E047800946D7B /* LaunchScreen.storyboard */,
 				EA3BB5B01D7E047800946D7B /* Info.plist */,
+				EA3BB5B81D7E04EF00946D7B /* Push-ButtonView.swift */,
+				EA3BB5BA1D7E0E5F00946D7B /* CounterView.swift */,
+				EAA2D9A91D7EECB600A3919C /* GraphView.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -97,6 +106,7 @@
 					EA3BB5A01D7E047700946D7B = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = ML9FUD8KSJ;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -136,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA2D9AA1D7EECB600A3919C /* GraphView.swift in Sources */,
 				EA3BB5A71D7E047700946D7B /* ViewController.swift in Sources */,
+				EA3BB5B91D7E04EF00946D7B /* Push-ButtonView.swift in Sources */,
 				EA3BB5A51D7E047700946D7B /* AppDelegate.swift in Sources */,
+				EA3BB5BB1D7E0E5F00946D7B /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -265,6 +279,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.Flo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -287,6 +302,7 @@
 				EA3BB5B51D7E047800946D7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
